@@ -255,7 +255,7 @@ start=time.time
 response = requests.get('http://recurship.com/')
 selector=Selector(response.text)
 href_links=selector.xpath('//a/@href').getall()
-image_links=selector.xpath('//img@src').getall()
+image_links=selector.xpath('//img/@src').getall()
 print('*********************HREF_LINKS**********************')
 print(href_links)
 print('*********************/HREF_LINKS**********************')
