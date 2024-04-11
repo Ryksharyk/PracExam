@@ -1,0 +1,5 @@
+ACK 	: nmap -sA -T4 <>
+SYN 	: nmap -p22,113,139 <>
+FIN 	: nmap -sF -T4 <>
+NULL	: nmap -sN -p22 <>
+XMAS	: nmap -sX -T4 <>

@@ -1,0 +1,16 @@
+1. Basic Scan 		: nmap www.google.com
+2. Intense Scan		: nmap -T4 -A -v www.google.com
+3. Service version Detection	: nmap -sV www.google.com
+4. Operating System Detection	: nmap -O www.google.com
+5. TCP SYN Scan		: nmap -sS www.google.com
+6. UDP Scan		: nmap -sU www.google.com
+7. very Aggressive Scan	: nmap -T5 www.google.com
+8. Fast Scan		: nmap -F www.google.com
+9. Ping Scan		: nmap -Sn www.google.com
+10. Port Range Scan		: nmap -p 1-100 www.google.com
+11. Script Scan		: nmap --script default www.google.com
+12. Multiple Target Scan	: nmap www.google.com www.youtube.com
+13. Specific Port Scan	: nmap -p 80 www.google.com
+14. IPv6 Scan		: nmap -6 www.google.com
+15. Specific Interface Scan	: nmap -e eth0 www.google.com
+16. Version Scan		: nmap --version
